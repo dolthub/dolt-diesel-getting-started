@@ -1,0 +1,18 @@
+use dolt_demo ;
+show tables;
+drop table posts;
+select * from dolt_diff;
+show tables;
+use dolt_demo ;
+show tables;
+select * from movies;
+show create table movies;
+use dolt_demo ;
+show tables;
+select * from movies;
+describe movies;
+select * from __diesel_schema_migrations ;
+select * from movies;
+insert into movies values ('title1', 'genre1', 2000, 7);
+show tables;
+describe movies;
