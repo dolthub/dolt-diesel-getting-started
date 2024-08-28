@@ -293,11 +293,11 @@ fn main() {
     dolt_commit(conn, "Added 3 movies");
     print_dolt_log(conn);
 
-    // Show branches
-    print_dolt_branches(conn);
-
-    // Make changes to other branch
+    // Make other branch 
     create_branch(conn, "other");
+    print_dolt_branches(conn);
+    
+    // Make changes changes to other branch
     checkout_branch(conn, "other");
     remove_movie(conn, "The Godfather");
     add_movie(conn, "The Godfather Part II", "Mafia", 1974, Some(90));
