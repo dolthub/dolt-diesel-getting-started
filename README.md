@@ -1,6 +1,6 @@
 This is a demo of using Diesel ORM with the Dolt database.
 
-Detailed instructions and walkthrough of code in this [blog](TODO: Add blog link)
+Detailed instructions and walkthrough of code in this [blog](https://github.com/dolthub/dolt-diesel-getting-started)
 
 # Quick Start
 1. Install Dolt, Rust, and Diesel CLI on your system.
